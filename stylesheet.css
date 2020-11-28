@@ -1,0 +1,136 @@
+
+a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a:visited {
+    color: #363639
+}
+a:hover {
+    color: #363639;
+}
+
+#add {
+    background-color: #f3e779;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #eceff0;
+    font-size: 1em;
+    font-family: "Comic Sans MS", cursive;
+}
+
+#buttonDel {
+    color: #d30200;
+}
+
+#buttonDone {
+    display: inline-block;
+    background-color: white;
+    color: #363639;
+    font-size: 0.8em;
+    padding: 3px 6px;
+    opacity: 0.4;
+    position: relative;
+    right: 0;
+}
+
+#buttonsRight {
+    float: right;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+input {
+    font-size: 1em;
+    font-family: "Comic Sans MS", cursive;
+    color: #363639;
+    width: 50%;
+    background: #f3e779;
+}
+
+input:focus {
+    outline: none;
+}
+
+#inputDate {
+    max-width: 200px;
+}
+
+#inputSort {
+    margin-top: 20px;
+}
+
+.inputSubmit {
+    padding: 5px 10px;
+    width: 100px;
+    border: 1px solid rgba(54, 54, 27, 0.4);
+    border-radius: 2px;
+    background: #eceff0;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.inputSubmit:hover {
+    background-color: #cdcdcd;
+    transition: 0.3s;
+}
+
+
+.items #itemDone {
+    color: white;
+    background-color: #d3d3d3;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.items {
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.items li:hover #buttonDone {
+    opacity: 1;
+}
+
+.items li, #inputTask, #inputDate {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    padding: 15px 0;
+}
+
+#list {
+    background-color: #f3e779;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+span + span {
+    tab-size: 30;
+}
+
+table {
+    width: 100%;
+}
+
+
+
